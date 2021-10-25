@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+#circle{
+    /* c
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 25px;
+    cursor: pointer; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient( #cc0066,#990099);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 5s;
+}
+.hover{
+ transform: scale(2);
+ 
+
+}
